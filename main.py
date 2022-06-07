@@ -4,9 +4,8 @@ import mergesort
 import shellsort
 import time
 
-
-
-def test_merge_sort():
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
     LIST_SIZE = 160000
 
     list_one = list(range(0, LIST_SIZE))
@@ -27,9 +26,5 @@ def test_merge_sort():
     elapsed = stop_time - start_time
     print("Sorting", LIST_SIZE, "items took", elapsed, "seconds")
     assert list_one == list_two
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    test_merge_sort()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
