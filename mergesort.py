@@ -36,3 +36,28 @@ def _merge_sort(array_to_sort):
     return merge(left_half, right_half)
 
 
+#timing results
+# /Users/isaacmather/PycharmProjects/Assignment8/venv/bin/python /Users/isaacmather/PycharmProjects/Assignment8/main.py
+# Merge Sort...
+# Sorting 160000 items took 1.2143199199999999 seconds
+# Shell Sort...
+# 80000
+# 40000
+# 20000
+# 10000
+# 5000
+# 2500
+# 1250
+# 625
+# 312
+# 156
+# 78
+# 39
+# 19
+# 9
+# 4
+# 2
+# 1
+# Sorting 160000 items took 1.7938307049999997 seconds
+#
+# Process finished with exit code 0
